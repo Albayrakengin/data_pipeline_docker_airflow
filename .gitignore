@@ -163,3 +163,9 @@ logs/*
 
 # Web server logs
 *.log
+
+#config
+config/*
+
+#plugins
+plugins/*
