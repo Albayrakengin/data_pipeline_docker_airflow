@@ -74,7 +74,8 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
-    - ${PYTHON_SCRIPTS_DIR:-.}/python_scripts:/opt/airflow/python_scripts
+    - ${AIRFLOW_PROJ_DIR:-.}/python_scripts:/opt/airflow/python_scripts
+    - ${AIRFLOW_PROJ_DIR:-.}/sql_queries:/opt/airflow/sql_queries
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
