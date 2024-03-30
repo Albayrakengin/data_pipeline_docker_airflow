@@ -1,6 +1,5 @@
 # data_pipeline_docker_airflow
-
-
+![diagram](https://github.com/Albayrakengin/data_pipeline_docker_airflow/assets/88938152/7ea2c99b-f07b-49da-95ea-a515ad47c2df)
 # The way it works
 
 1. `api_to_postgres.py` fetchs products data from the api and, it writes it to a postgres table.
