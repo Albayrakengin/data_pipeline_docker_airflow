@@ -50,8 +50,6 @@ WHERE NOT EXISTS (
 """
 
 
-
-
 default_args = {
     'owner': 'Engin',
     'start_date': datetime(2024, 3, 15),
