@@ -9,11 +9,10 @@
 3. Transforms the data and insert it into newly created tables
 
 # Installation
-
 ```bash
  docker-compose up
 ```
-After it downloads all neccesary images, check if all containers are running. Then go to 'http://localhost:8080' and see if airflow-webserver is working as intented.
+After it downloads all necessary images, check if all containers are running. Then go to 'http://localhost:8080' and see if airflow-webserver is working as intented.
 
 Then, we are going to create a connection to be able to connect postgres databases and run the PostgresOperators.
 
